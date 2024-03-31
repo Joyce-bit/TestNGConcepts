@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.ignore.IgnoreTestLevel"/>
+      <class name="org.assertion.HardAssertion"/>
+      <class name="org.parameters.SuiteLevelParameter"/>
+      <class name="org.sample.TestNGSample"/>
+      <class name="org.priority.OrderOfExecutionwithPriority"/>
+      <class name="org.ignore.IgnoreClassLevel"/>
+      <class name="org.priority.IncorrectOrderOfExecution"/>
+      <class name="org.parameters.TestLevelParameter"/>
+      <class name="org.annotations.TestNGAnnotations"/>
+      <class name="org.assertion.ValidationWithAssert"/>
+      <class name="org.annotations.OrangeHRMwithTestNGAnnotations"/>
+      <class name="org.grouping.GroupClass1"/>
+      <class name="org.enabledisabletestcase.EnableDisableTestCase"/>
+      <class name="org.multipleMethodswithxml.OrangeHRM"/>
+      <class name="org.grouping.GroupClass2"/>
+      <class name="org.assertion.SoftAssertion"/>
+      <class name="org.parameters.OptionalParameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
